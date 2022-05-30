@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="yeni proje">
+    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="yeni projee">
+      <change afterPath="$PROJECT_DIR$/src/diziler/çokboyutludiziler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsınıfı/mathkurallar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stringsınıfı/stringsınıfkurallar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,26 +41,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.methoddersi.recursive1">
-    <configuration name="ders2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methoddersi.ders2" />
+  <component name="RunManager" selected="Application.stringsınıfkurallar">
+    <configuration name="mathkurallar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathsınıfı.mathkurallar" />
       <module name="volkan3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methoddersi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ders3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methoddersi.ders3" />
-      <module name="volkan3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="methoddersi.*" />
+          <option name="PATTERN" value="mathsınıfı.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="recursive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methoddersi.recursive2" />
+    <configuration name="stringsınıfkurallar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringsınıfı.stringsınıfkurallar" />
       <module name="volkan3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methoddersi.*" />
+          <option name="PATTERN" value="stringsınıfı.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="çokboyutludiziler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diziler.çokboyutludiziler" />
+      <module name="volkan3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diziler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,9 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stringsınıfkurallar" />
+        <item itemvalue="Application.mathkurallar" />
+        <item itemvalue="Application.çokboyutludiziler" />
         <item itemvalue="Application.methoddersi.recursive1" />
         <item itemvalue="Application.palindromsayılar" />
-        <item itemvalue="Application.recursive2" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652296454219</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="yeni projee">
+      <created>1652811042928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652811042928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yeni proje" />
-    <option name="LAST_COMMIT_MESSAGE" value="yeni proje" />
+    <MESSAGE value="yeni projee" />
+    <option name="LAST_COMMIT_MESSAGE" value="yeni projee" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,7 +198,17 @@
           <line>4</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/diziler/çokboyutludiziler.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java2$mathkurallar.ic" NAME="mathkurallar Coverage Results" MODIFIED="1653939891282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mathsınıfı.*</FILTER>
+    </SUITE>
   </component>
 </project>
