@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="yeni projee">
-      <change afterPath="$PROJECT_DIR$/src/diziler/çokboyutludiziler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mathsınıfı/mathkurallar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stringsınıfı/stringsınıfkurallar.java" afterDir="false" />
+    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="kendi bilgisayarım">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diziler/çokboyutludiziler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kkk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="diziler" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.stringsınıfkurallar">
     <configuration name="mathkurallar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mathsınıfı.mathkurallar" />
@@ -161,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652811042928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="kendi bilgisayarım">
+      <created>1653943767539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653943767539</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +190,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yeni proje" />
     <MESSAGE value="yeni projee" />
-    <option name="LAST_COMMIT_MESSAGE" value="yeni projee" />
+    <MESSAGE value="kendi bilgisayarım" />
+    <option name="LAST_COMMIT_MESSAGE" value="kendi bilgisayarım" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
