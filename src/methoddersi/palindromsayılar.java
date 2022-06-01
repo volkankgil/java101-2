@@ -37,7 +37,7 @@ public class palindromsayılar {
     public static void main(String[] args) {
 
 
-        System.out.println(ispalindrom(1582147));
+        System.out.println(ispalindrom(148751));
 
 
         /*int a = number % 10

@@ -1,12 +1,15 @@
 package stringsýnýfý;
 
+import java.util.Arrays;
+import java.util.Locale;
+
 public class stringsýnýfkurallar {
     public static void main(String[] args) {
 //String metodlarý static olmadýðý için string nesnesini üretmeliyiz.
 
         String str = "patika";
 
-        String patika ="paTÝka";
+        String patika ="   paTÝka  ";
 
         char d =98;
 
@@ -45,7 +48,22 @@ public class stringsýnýfkurallar {
 
         System.out.println(str.replaceFirst("a","þ")); //ilk aharfini þ yapýyor.
 
-        System.out.println(str);
+        String []sp=str.split("t");         //istediðimiz harfi kelime içerisinden çýkarýyor ve ekrana array olarak bastýrýyor.
+        System.out.println(Arrays.toString(sp));
+
+        System.out.println(str.startsWith("güzel")); //eðer girdiðimiz deðer ile string baþlýyor ise doðru ,deðilse yanlýþ.
+
+        System.out.println(str.substring(1,4)); // 1. indisten baþalyarak 3. indise kadar string deðerlerini ekrana bastýrýyoruz.
+
+        System.out.println(patika.toLowerCase()); // string'in bütün hecelerini küçültüyor.
+
+        System.out.println(patika.toUpperCase(Locale.ROOT)); // string'in bütün heccelerini büyültüyor.
+
+        System.out.println(patika.trim()); //string'in saðýnda ve solundaki boþluklarý kaldýrýr. 2 deðer arasýdndaki boþluðu silmez.
+
+        
+
+
 
 
 
