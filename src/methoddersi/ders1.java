@@ -2,6 +2,7 @@ package methoddersi;
 
 public class ders1 {
     static void helloworld(){
+
         System.out.println("patika harika");
     }
     static int power(int alt,int üst){
@@ -13,6 +14,7 @@ public class ders1 {
     }
 
     public static void main(String[] args) {
+
         //f(x) = 2x+5
         //f(3) = 2*3+5=11
 
@@ -46,9 +48,6 @@ public class ders1 {
        helloworld();
        helloworld();
        helloworld();
-
-
-
         }
     }
 
