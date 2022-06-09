@@ -1,14 +1,14 @@
 package öðrencibilgisistemi;
 
-public class course {
-    teacher teacherName;
+public class Course {
+    Teacher teacherName; //SINIFIN NÝTELÝKLERÝ ÝÇERÝSÝNDE BAÞKA BÝR SINIFI ÇAÐIRIR ÝSEK JARGON OLARAK EN ÜSTTE YAZILIR.
     String courseName;
     String code;
     String prefix;
     double note;
     double sözlünot;
 
-    course(String courseName, String code, String prefix, teacher teacherName) {
+    Course(String courseName, String code, String prefix, Teacher teacherName) {
         this.courseName = courseName;
         this.code = code;
         this.prefix = prefix;
@@ -21,7 +21,7 @@ public class course {
         System.out.println("adý: " + this.courseName);
         System.out.println("Kod: " + this.code);
         System.out.println("Prefix: " + this.prefix);
-        System.out.println("teacher: " + this.teacherName);
+        System.out.println("Teacher: " + this.teacherName);
         System.out.println("Notu: " + this.note);
         System.out.println("sözlü notu : "+this.sözlünot);
     }
@@ -31,7 +31,7 @@ public class course {
     }
 
 
-    void addteacher(teacher teacherName) {
+    void addteacher(Teacher teacherName) {
         if (teacherName.branch.equals(this.prefix)) {
             this.teacherName = teacherName;
 

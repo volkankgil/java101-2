@@ -1,15 +1,15 @@
 package öðrencibilgisistemi;
 
-public class student {
-    course tarih;  //course sýnýfýndan  3 farklý ders için 3 nesne tanýmladýk.
+public class Student {
+    Course tarih;  //Course sýnýfýndan  3 farklý ders için 3 nesne tanýmladýk.
 
-    course biyoloji;
+    Course biyoloji;
 
-    course fizik;
+    Course fizik;
 
-    course iþteknik;
+    Course Rehberlik;
 
-    course müzik;
+    Course müzik;
 
     String namestudent;
     String StuNo;
@@ -18,26 +18,29 @@ public class student {
     double average;
     boolean isPass;
 
-    student(String namestudent, String stuNo, String classes, course tarih, course biyoloji, course fizik) {
+    Student(String namestudent, String stuNo, String classes, Course tarih, Course biyoloji, Course fizik,Course Rehberlik) {
         this.namestudent = namestudent;
         this.StuNo = stuNo;
         this.Classes = classes;
         this.tarih = tarih;
         this.biyoloji = biyoloji;
         this.fizik = fizik;
-        oranortalama();
+        this.Rehberlik=Rehberlik;
         this.isPass=false;
     }
 
-    void addbulkexamnote(int tarih, int fizik, int biyoloji, int tarihsözlünot, int fiziksözlünot, int biyolojisözlünot) {
+    void addbulkexamnote(int tarih, int fizik, int biyoloji,int Rehberlik,int tarihsözlünot, int fiziksözlünot, int biyolojisözlünot,int rehberliksözlünot) {
         if (tarih >= 0 && tarih <= 100) {
-            this.tarih.note = tarih;       //c1.note ; c1 dersinin course sýnýfýndaki note'a atanmasýdýr.
+            this.tarih.note = tarih;       //c1.note ; c1 dersinin Course sýnýfýndaki note'a atanmasýdýr.
         }
         if (fizik >= 0 && fizik <= 100) {
             this.fizik.note = fizik;
         }
         if (biyoloji >= 0 && biyoloji <= 100) {
             this.biyoloji.note = biyoloji;
+        }
+        if (Rehberlik >= 0 && Rehberlik <= 100) {
+            this.Rehberlik.note = Rehberlik;
         }
         if (tarihsözlünot >= 0 && tarihsözlünot <= 100) {
             this.tarih.sözlünot = tarihsözlünot;
@@ -47,6 +50,9 @@ public class student {
         }
         if (biyolojisözlünot >= 0 && biyolojisözlünot <= 100) {
             this.biyoloji.sözlünot = biyolojisözlünot;
+        }
+        if (Rehberlik >= 0 && Rehberlik <= 100) {
+            this.Rehberlik.sözlünot = rehberliksözlünot;
         }
     }
     void oranortalama() {
@@ -58,12 +64,15 @@ public class student {
 
     void isPass() {
         this.isPass=isKontrolPass();
+
         printstudent();
-        System.out.println("Ortalama: "+this.average);
+
+        System.out.println("Ortalama: "+Math.ceil(this.average));
+
         if(this.isPass){
-            System.out.println("sýnýfý geçti");
+            System.out.println("Sýnýfý Geçti");
         } else {
-            System.out.println("sýnýfta kaldý");
+            System.out.println("Sýnýfta Kaldý");
         }
     }
     boolean isKontrolPass(){
@@ -71,17 +80,18 @@ public class student {
         return this.average>=55;
     }
 
-
     void printstudent() {
-        System.out.println(namestudent);
-        System.out.println(StuNo);
-        System.out.println(Classes);
-        System.out.println(tarih.courseName + " notu: " + tarih.note);
-        System.out.println(fizik.courseName + " notu: " + fizik.note);
+        System.out.println("Öðrenci Adý:" +this.namestudent);
+        System.out.println("Öðrenci No :" +this.StuNo);
+        System.out.println("Öðrenci Sýnýfý:" +this.Classes);
+        System.out.println(this.tarih.courseName + " notu: " + this.tarih.note);
+        System.out.println(this.fizik.courseName + " notu: " + this.fizik.note);
         System.out.println(biyoloji.courseName + " notu: " + biyoloji.note);
+        System.out.println(Rehberlik.courseName + " notu: " + Rehberlik.note);
         System.out.println(tarih.courseName + " sözlü notu: " + tarih.sözlünot);
         System.out.println(fizik.courseName + " sözlü notu: " + fizik.sözlünot);
         System.out.println(biyoloji.courseName + " sözlü notu: " + biyoloji.sözlünot);
+        System.out.println(Rehberlik.courseName + "sözlü notu: " + Rehberlik.sözlünot);
 
     }
 

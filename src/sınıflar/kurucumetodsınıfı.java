@@ -1,6 +1,6 @@
 package sýnýflar;
 
-class kurucumetod {
+class kurucumetodsýnýfý {
 
 // Nitelikler ; sýnýfa ait deðiþkenlerdir.
         String model="Test";
@@ -10,7 +10,7 @@ class kurucumetod {
         int speedlimit;
 
 // Davranýþlar : Sýnýfa ait metodlardýr.
-        kurucumetod( String model,int speed,String colour){
+        kurucumetodsýnýfý(String model, int speed, String colour){
 
            // System.out.println(this.model);   BÝR DEÐÝÞKENÝN BAÞINA THÝS KOYAR ÝSEK SINIFA AÝT DEÐÝÞKENÝ ALIR.
             this.model=model;
@@ -18,12 +18,14 @@ class kurucumetod {
             this.colour=colour;
             this.type="sedan";
             this.speedlimit=180;
-            System.out.println( "Model:" + model + "" + speed + "" + colour);
+            System.out.println( "Model:" + model + "=" + speed + "=" + colour);
 
     }
-            kurucumetod(){
-            System.out.println("bu kurucu metoddur");
-    }
+
+            kurucumetodsýnýfý(){
+
+            }
+
 
             void increaseSpeed(int increase){
 

@@ -4,12 +4,13 @@ public class main {
     public static void main(String[] args) {
 
 
-        kurucumetod audi = new kurucumetod("audi",50,"red");
+        kurucumetodsýnýfý audi = new kurucumetodsýnýfý("audi",50,"red");
 
         audi.printinfo();
 
 
-        kurucumetod bmw = new kurucumetod();
+        kurucumetodsýnýfý bmw = new kurucumetodsýnýfý();
+
         bmw.model="bmw";
         bmw.type="3.20";
         bmw.speed=25;
@@ -17,10 +18,11 @@ public class main {
         bmw.increaseSpeed(55);
 
         System.out.println("---------");
+
         bmw.printinfo();
 
 
-        kurucumetod mercedes=new kurucumetod("Mercedes",100,"red");
+        kurucumetodsýnýfý mercedes=new kurucumetodsýnýfý("Mercedes",100,"red");
         mercedes.model="c180";
         mercedes.speed=100;
         mercedes.decreaseSpeed(34);

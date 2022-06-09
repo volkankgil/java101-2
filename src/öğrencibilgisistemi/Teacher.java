@@ -1,11 +1,11 @@
 package öðrencibilgisistemi;
 
-public class teacher {
+public class Teacher {
     String teacherName;
     String mpno;
     String branch;
 
-    teacher(String teacherName,String branch,String mpno){
+    Teacher(String teacherName, String branch, String mpno){
         this.teacherName=teacherName;
         this.mpno=mpno;
         this.branch=branch;
