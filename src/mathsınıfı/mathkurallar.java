@@ -23,7 +23,7 @@ public class mathkurallar {
 
         System.out.println(Math.random()*100); // 1 ile 0 arasýnda sayý oluþturur. 100 ile çarpýp yüzde deðerini buldum.
 
-        System.out.println(Math.signum(-5752)); //x sayýsýnýn iþaretcisini negatif ise -1 poazitif ise +1 döndürür.
+        System.out.println(Math.signum(-5752)); //x sayýsýnýn iþaretcisini negatif ise -1 pozitif ise +1 döndürür.
 
 
     }

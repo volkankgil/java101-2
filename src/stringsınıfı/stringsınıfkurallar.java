@@ -26,6 +26,8 @@ public class stringsýnýfkurallar {
 
         System.out.println(str.compareTo(patika)); // 2 str'yi karþýlaþtýrýyor. eþit deðil ise farklýlýk rakamýna göre ekrana çýktý basýyor. ayný ise 0 basýyor.
 
+        System.out.println("--------------------");
+
         System.out.println(str.concat(".dev")); // bir string sonuna deðer yazdýrabiliyoruz.
 
         System.out.println(patika.contains("TÝ"));//Bir string içerisinde bu harfler var mý diye bakýyor(BÜYÜK KÜÇÜK HARF DUYARLILIÐI VAR) var ise true,yok ise false döndürüyor.pk þeklinde sorar isek brleþik olmadýðý için false döndürür.
@@ -37,6 +39,8 @@ public class stringsýnýfkurallar {
         System.out.println(patika.equalsIgnoreCase(str)); //Eþitliðine bakýyor. büyük küçük harf duyarlý deðil.
 
         System.out.println(str.indexOf('a')); //dizideki harfin bulduðu ilk indeks deðerini döndürüyor.
+
+        System.out.println("----------------");
 
         System.out.println(str.isEmpty());//boþ mu deðilmi diye bakýyor. boþ ise isempty olduðundan geriye true, dolu ise false döndürüyor. Eðer deðer atanmamýþ ise String str; gibi null'dýr.
 
