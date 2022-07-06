@@ -57,7 +57,7 @@ public class stringsýnýfkurallar {
 
         System.out.println(str.startsWith("güzel")); //eðer girdiðimiz deðer ile string baþlýyor ise doðru ,deðilse yanlýþ.
 
-        System.out.println(str.substring(1,4)); // 1. indisten baþalyarak 3. indise kadar string deðerlerini ekrana bastýrýyoruz.
+        System.out.println(str.substring(1,4)); // 1. indisten baþlayarak 3. indise kadar string deðerlerini ekrana bastýrýyoruz.
 
         System.out.println(patika.toLowerCase()); // string'in bütün hecelerini küçültüyor.
 
