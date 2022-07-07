@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="yeni projee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stringsınıfı/stringsınıfkurallar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stringsınıfı/stringsınıfkurallar.java" afterDir="false" />
+=======
+    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="m">
+      <change afterPath="$PROJECT_DIR$/src/methoddersi/gelişmişhesapmakinesi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655460513052</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="m">
+      <created>1654288129265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654288129265</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +196,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yeni proje" />
     <MESSAGE value="yeni projee" />
+<<<<<<< Updated upstream
     <option name="LAST_COMMIT_MESSAGE" value="yeni projee" />
+=======
+    <MESSAGE value="kendi bilgisayarım" />
+    <MESSAGE value="m" />
+    <option name="LAST_COMMIT_MESSAGE" value="m" />
+>>>>>>> Stashed changes
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
