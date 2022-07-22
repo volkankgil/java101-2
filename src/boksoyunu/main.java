@@ -9,8 +9,5 @@ public class main {
         Match match=new Match(f1,f2 ,90,100);
         match.run();
 
-
-        ///vewewvwevewvwbr tenjehwraentdn
-        //brbrb
     }
 }
