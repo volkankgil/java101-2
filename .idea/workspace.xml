@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="yeni projee">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stringsınıfı/stringsınıfkurallar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stringsınıfı/stringsınıfkurallar.java" afterDir="false" />
-=======
-    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="m">
-      <change afterPath="$PROJECT_DIR$/src/methoddersi/gelişmişhesapmakinesi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> Stashed changes
-    </list>
+    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="yeni projee" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +36,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.volllll">
-    <configuration name="das" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boksoyunu.das" />
+  <component name="RunManager" selected="Application.fibonacciserisi">
+    <configuration name="fibonacciserisi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.exercises.fibonacciserisi" />
       <module name="volkan3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="boksoyunu.*" />
+          <option name="PATTERN" value="method.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +50,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindromikkelimebulma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringsınıfı.palindromikkelimebulma" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="carExample.main" />
       <module name="volkan3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringsınıfı.*" />
+          <option name="PATTERN" value="carExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sayıtahminoyunu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathsınıfı.sayıtahminoyunu" />
+    <configuration name="recursive1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.lecture.recursive1" />
       <module name="volkan3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mathsınıfı.*" />
+          <option name="PATTERN" value="method.lecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringsınıfkurallar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringsınıfı.stringsınıfkurallar" />
+    <configuration name="recursive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.lecture.recursive2" />
       <module name="volkan3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringsınıfı.*" />
+          <option name="PATTERN" value="method.lecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +94,7 @@
       <module name="volkan3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methoddersi.*" />
+          <option name="PATTERN" value="method.lecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +104,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.volllll" />
-        <item itemvalue="Application.stringsınıfkurallar" />
-        <item itemvalue="Application.palindromikkelimebulma" />
-        <item itemvalue="Application.sayıtahminoyunu" />
-        <item itemvalue="Application.das" />
+        <item itemvalue="Application.fibonacciserisi" />
+        <item itemvalue="Application.recursive2" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.recursive1" />
       </list>
     </recent_temporary>
   </component>
@@ -172,14 +162,7 @@
       <option name="project" value="LOCAL" />
       <updated>1655460513052</updated>
     </task>
-    <task id="LOCAL-00007" summary="m">
-      <created>1654288129265</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1654288129265</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,29 +179,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yeni proje" />
     <MESSAGE value="yeni projee" />
-<<<<<<< Updated upstream
     <option name="LAST_COMMIT_MESSAGE" value="yeni projee" />
-=======
-    <MESSAGE value="kendi bilgisayarım" />
-    <MESSAGE value="m" />
-    <option name="LAST_COMMIT_MESSAGE" value="m" />
->>>>>>> Stashed changes
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/methoddersi/ders2.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/methoddersi/ders3.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/methoddersi/palindromsayılar.java</url>
+          <url>file://$PROJECT_DIR$/src/method/exercises/palindromsayılar.java</url>
           <line>4</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
