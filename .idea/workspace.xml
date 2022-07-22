@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="yeni projee" />
+    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="yeni projee">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +38,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.fibonacciserisi">
+  <component name="RunManager" selected="Application.boksoyunu.main">
+    <configuration name="boksoyunu.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boksoyunu.main" />
+      <module name="volkan3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boksoyunu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="fibonacciserisi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="method.exercises.fibonacciserisi" />
       <module name="volkan3" />
@@ -63,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="recursive1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.lecture.recursive1" />
+    <configuration name="marin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="carörneği.marin" />
       <module name="volkan3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.lecture.*" />
+          <option name="PATTERN" value="carörneği.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,25 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="volllll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methoddersi.volllll" />
-      <module name="volkan3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="method.lecture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boksoyunu.main" />
+        <item itemvalue="Application.marin" />
         <item itemvalue="Application.fibonacciserisi" />
         <item itemvalue="Application.recursive2" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.recursive1" />
       </list>
     </recent_temporary>
   </component>
