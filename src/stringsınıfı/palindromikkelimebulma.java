@@ -16,9 +16,7 @@ public class palindromikkelimebulma {
             return true;
 
         }return false;
-
 }
-
     static boolean ispalindrom(String str) {
 
          int i = 0;

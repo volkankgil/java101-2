@@ -22,6 +22,8 @@ public class sayýtahminoyunu {
         int numbers[] = new int[5];
         int right = 0;
         int count = 0;
+        boolean isRight = true;
+
 
         while (right < 5) {
             System.out.println("-----------");
@@ -29,28 +31,31 @@ public class sayýtahminoyunu {
             int n = input.nextInt();
             numbers[right] = n;
             System.out.println("Girilen Sayýlar :" + Arrays.toString(numbers));
-            if (n > 0 && n < 100) {
-                if (n == Randomnumber) {
-                    System.out.println("Tebrikler Sayýyý Bildiniz. Tahmin ettiðiniz Sayý : " + Randomnumber);
-                    break;
-                } else {
-                    System.out.println("Yanlýþ sayý girdiniz.");
-                    if (n > Randomnumber) {
-                        System.out.println(+n + " Sayýsý Gizli sayýdan büyüktür.");
+                if (n > 0 && n < 100) {
+                    if (n == Randomnumber) {
+                        System.out.println("Tebrikler Sayýyý Bildiniz. Tahmin ettiðiniz Sayý : " + Randomnumber);
+                        break;
                     } else {
-                        System.out.println(+n + " Sayýsý Gizli sayýdan küçüktür.");
+                        System.out.println("Yanlýþ sayý girdiniz.");
+                        if (n > Randomnumber) {
+                            System.out.println(+n + " Sayýsý Gizli sayýdan büyüktür.");
+                        } else {
+                            System.out.println(+n + " Sayýsý Gizli sayýdan küçüktür.");
+                        }
+                        right++;
+                        System.out.println("KALAN HAKKINIZ:" + (5 - right));
                     }
-                    right++;
-                    System.out.println("KALAN HAKKINIZ:" + (5 - right));
+                } else {
+                    count++;
+                    System.out.println("1 ve 100 arasýnda bir sayý giriniz.");
+                    if (count > 1) {
+                        right++;
+                        System.out.println("Kalan Hakkýnýz:" + (5 - right));
+                    }
                 }
-            } else {
-                count++;
-                System.out.println("1 ve 100 arasýnda bir sayý giriniz.");
-                if (count > 1) {
-                    right++;
-                    System.out.println("Kalan Hakkýnýz:" + (5 - right));
-                }
-            }
             }
         }
     }
+
+
+
