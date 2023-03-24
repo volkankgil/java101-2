@@ -20,16 +20,16 @@ public class sayýtahminoyunu {
         Scanner input = new Scanner(System.in);
 
         int numbers[] = new int[5];
-        int right = 0;
+        int saytoright = 0;
         int count = 0;
         boolean isRight = true;
 
 
-        while (right < 5) {
+        while (saytoright < 5) {
             System.out.println("-----------");
             System.out.println("Bir sayý Giriniz :");
             int n = input.nextInt();
-            numbers[right] = n;
+            numbers[saytoright] = n;
             System.out.println("Girilen Sayýlar :" + Arrays.toString(numbers));
                 if (n > 0 && n < 100) {
                     if (n == Randomnumber) {
@@ -42,15 +42,15 @@ public class sayýtahminoyunu {
                         } else {
                             System.out.println(+n + " Sayýsý Gizli sayýdan küçüktür.");
                         }
-                        right++;
-                        System.out.println("KALAN HAKKINIZ:" + (5 - right));
+                        saytoright++;
+                        System.out.println("KALAN HAKKINIZ:" + (5 - saytoright));
                     }
                 } else {
                     count++;
                     System.out.println("1 ve 100 arasýnda bir sayý giriniz.");
                     if (count > 1) {
-                        right++;
-                        System.out.println("Kalan Hakkýnýz:" + (5 - right));
+                        saytoright++;
+                        System.out.println("Kalan Hakkýnýz:" + (5 - saytoright));
                     }
                 }
             }

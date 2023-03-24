@@ -20,21 +20,22 @@ public class Match {
     public void run(){
 
         if(isCheck()){
-            while(this.f1.health>0 && this.f2.health>0){
+            while(this.f1.health>0 && this.f2.health>0) {
 
-                    System.out.println("---Yeni Round---");
-                    if(start()) {
+                System.out.println("---Yeni Round---");
+                if (start()) {
                     this.f2.health = this.f1.hit(f2);
                     if (iswin()) {
                         break;
                     }
                     System.out.println(this.f2.name + " Saðlýk = " + this.f2.health);
+                } else {
+                    this.f1.health = this.f2.hit(f1);
+                    if (iswin()) {
+                        break;
+                    }
+                    System.out.println(this.f1.name + " Saðlýk = " + this.f1.health);
                 }
-                this.f1.health=this.f2.hit(f1);
-                if(iswin()){
-                    break;
-                }
-                System.out.println(this.f1.name+ " Saðlýk = " +this.f1.health);
             }
 
         }else {

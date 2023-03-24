@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="yeni projee">
-      <change afterPath="$PROJECT_DIR$/src/maashesaplamaaa/employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maashesaplamaaa/main.java" afterDir="false" />
+    <list default="true" id="b6a9d2df-abba-47c2-bd89-401e43b67428" name="Changes" comment="java practium için proje yapıldı.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maaşhesaplama/employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maaşhesaplama/employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maaşhesaplama/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maaşhesaplama/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boksoyunu/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boksoyunu/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathsınıfı/mathkurallar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathsınıfı/mathkurallar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathsınıfı/sayıtahminoyunu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathsınıfı/sayıtahminoyunu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stringsınıfı/palindromikkelimebulma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stringsınıfı/palindromikkelimebulma.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,20 @@
   }
 }</component>
   <component name="RunManager" selected="Application.main">
-    <configuration name="boksoyunu.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="öğrencibilgisistemi.Main" />
+      <module name="volkan3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="öğrencibilgisistemi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boksoyunu.main" />
       <module name="volkan3" />
       <extension name="coverage">
@@ -56,38 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maaşhesaplama.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maaşhesaplama.main" />
+    <configuration name="mathkurallar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathsınıfı.mathkurallar" />
       <module name="volkan3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="maaşhesaplama.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maashesaplamaaa.main" />
-      <module name="volkan3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="maashesaplamaaa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="palindromikkelimebulma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringsınıfı.palindromikkelimebulma" />
-      <module name="volkan3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stringsınıfı.*" />
+          <option name="PATTERN" value="mathsınıfı.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sınıflar.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sınıflar.main" />
+      <module name="volkan3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sınıflar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.maaşhesaplama.main" />
-        <item itemvalue="Application.palindromikkelimebulma" />
         <item itemvalue="Application.sayıtahminoyunu" />
-        <item itemvalue="Application.boksoyunu.main" />
+        <item itemvalue="Application.mathkurallar" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.sınıflar.main" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658489672962</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="java practium için proje yapıldı.">
+      <created>1665481070980</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665481070980</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yeni proje" />
     <MESSAGE value="yeni projee" />
-    <option name="LAST_COMMIT_MESSAGE" value="yeni projee" />
+    <MESSAGE value="java practium için proje yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="java practium için proje yapıldı." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,6 +228,11 @@
           <url>file://$PROJECT_DIR$/src/maashesaplamaaa/main.java</url>
           <line>4</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mathsınıfı/mathkurallar.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

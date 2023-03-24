@@ -10,6 +10,7 @@ public class palindromikkelimebulma {
             newStr+=str.charAt(i);
 
         }
+
         System.out.println(newStr);
 
         if(newStr.equals(str)){
